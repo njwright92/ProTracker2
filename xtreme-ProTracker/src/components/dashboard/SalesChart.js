@@ -38,6 +38,10 @@ const SalesChart = () => {
           "June",
           "July",
           "Aug",
+          'Sept',
+          'Oct',
+          'Nov',
+          'Dec'
         ],
       },
     },
@@ -45,9 +49,9 @@ const SalesChart = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5">Sales Summary</CardTitle>
+        <CardTitle tag="h5">Production Tracking</CardTitle>
         <CardSubtitle className="text-muted" tag="h6">
-          Yearly Sales Report
+          Yearly Tracking Report
         </CardSubtitle>
         <Chart
           type="area"
