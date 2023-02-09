@@ -18,7 +18,7 @@ const Breadcrumbs = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <i className="bi bi-link me-2"> </i>
-            Basic Breadcrumbs
+            Nav History
           </CardTitle>
           <CardBody className="">
             <Breadcrumb>

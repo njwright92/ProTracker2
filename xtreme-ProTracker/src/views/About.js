@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, CardTitle, Button, CardSubtitle } from 'reactstrap';
+import { Row, Col, CardTitle, CardSubtitle } from 'reactstrap';
 import ComponentCard from '../components/ComponentCard';
 
 
@@ -88,28 +88,14 @@ const About = () => {
         {/* Card-1*/}
         {/* --------------------------------------------------------------------------------*/}
         <ComponentCard
-          title="Xtreme React Admin Pro Version"
+          title="ProTracker1"
           subtitle={
             <p>
-              5 premium and highly customizable demo variations included in the package, with React
-              Router 6, Redux Toolkit, Axios nd much more...
+              Production tracking app for all your basic tracking needs. Select your Product, enter in the details and quantity. Store that data and look at the daily weekly monthly and yearly charts to track the ups and downs of productions
             </p>
           }
         >
-          
-          <Row>
-            <Col lg="8">
-              <div className="mt-3">
-                <Button
-                  color="primary"
-                  href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/?ref=33"
-                  target="_blank"
-                >
-                  Buy Now
-                </Button>
-              </div>
-            </Col>
-          </Row>
+
         </ComponentCard>
         <ComponentCard title="Features">
           <Row>
